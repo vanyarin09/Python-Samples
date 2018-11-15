@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 """
 Created on Wed Nov 14 19:51:26 2018
-
-@author: Ardrey
 """
 
 s = str(input("Enter a string: "))
