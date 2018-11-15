@@ -17,7 +17,7 @@ while abs((guess**2 - square)) >= epsilon and guess <= square:
     guess += step
 
 if abs(guess**2 - square) >= epsilon:
-    print ("The number " +str(square) +  " is not perfect square! ")
+    print ("Failed to find the approximate square root of " + str(square))
 else:
     print ("The approximate square root of " + str(square) + " is " + str(guess))
     
